@@ -37,10 +37,10 @@ with pair of key and values.
             un.unnest(list_data=[list_data], path_key=None,
                    file_name=os.path.join(un.SMP_DIR, file_name))
             print('Please wait, unnesting data...')
-            print('File saved in root of the project.')
+            print('File saved in SMP_DIR.')
 
             # generate unnested json file
-            un.un.generate_json(file_name)
+            un.generate_json(file_name)
 
             # =============================================================== #
             # generate the final csv file
