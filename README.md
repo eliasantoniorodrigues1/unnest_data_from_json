@@ -4,7 +4,7 @@
 
 ---
 
-This function was built to allow users to analyse the data from a json file
+This function was built to allow users to analyse data from a json file
 in a strucured form.
 
 After simplifie the file another json file is generate in \json.
